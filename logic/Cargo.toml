@@ -1,0 +1,9 @@
+[package]
+name = "logic"
+version = "0.1.0"
+authors = ["Chris <clsanford9191@gmail.com>"]
+
+[dependencies]
+either = "*"
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive", "rc"] }
